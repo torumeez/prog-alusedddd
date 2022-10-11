@@ -1,12 +1,14 @@
-# user_name = input('Mis on sinu nimi:')
+user_name = 'Kevinp'
 
-# print('Hello, ' + user_name + '!')
+a = 5
+b = 10 
 
-a = int(input('a: '))
-b = int(input('b: '))
+print('Hello, ', '!'
 
-
+)
 print(a + b)
-print(b - b)
-print(a * b)
-print(a / b)
+print(user_name)
+
+user_name = 'albert'
+
+print(user_name * 10)

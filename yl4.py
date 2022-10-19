@@ -9,4 +9,4 @@ def answer(a, b):
     else:
         return b
 
-print(answer(a, b))
+print('Nende kahe arvu miinimum on:', answer(a, b))

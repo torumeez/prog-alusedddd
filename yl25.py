@@ -6,8 +6,8 @@ dictionary = {
 "favorite_desert": "Pancake"
 }
 
-print(dictionary.get("living_place"))
-print(dictionary["living_place"])
+#print(dictionary.get("living_place"))
+#print(dictionary["living_place"])
 
 dictionary.update({"favorite_desert": "Ice cream" })
 

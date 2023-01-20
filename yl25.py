@@ -6,24 +6,24 @@ dictionary = {
 "favorite_desert": "Pancake"
 }
 
-print(päevik.get("living_place"))
-print(päevik["living_place"])
+print(dictionary.get("living_place"))
+print(dictionary["living_place"])
 
-päevik.update({"favorite_desert": "Ice cream" })
+dictionary.update({"favorite_desert": "Ice cream" })
 
-print(päevik.keys())
+print(dictionary.keys())
 
-print(päevik.values())
+print(dictionary.values())
 
-if 'ID' in päevik :
+if 'ID' in dictionary :
     print("Have ID")
 else:
     print("Not have ID")
 
-print(len(päevik))
+print(len(dictionary))
 
-päevik.update({"length": len(päevik)})
+dictionary.update({"length": len(dictionary)})
 
-päevik.pop("birthyear")
+dictionary.pop("birthyear")
 
 del dictionary

@@ -9,7 +9,7 @@ dictionary = {
 #print(dictionary.get("living_place"))
 #print(dictionary["living_place"])
 
-dictionary.update({"favorite-desert": "Ice cream" })
+dictionary.update({"favorite-desert=": "Ice cream" })
 
 #print(dictionary.keys())
 
@@ -29,6 +29,6 @@ print(len(dictionary))
 
 dictionary.update({"length": len(dictionary)})
 
-dictionary.pop("birth-year")
+dictionary.pop("birth-year=")
 
 del dictionary

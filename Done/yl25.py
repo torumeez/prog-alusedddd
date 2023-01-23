@@ -6,14 +6,14 @@ dictionary = {
    "favorite-desert=": "Pancake"
 }
 
-#print(dictionary.get("living_place"))
-#print(dictionary["living_place"])
+#print(dictionary.get("living-place="))
+#print(dictionary["living-place="])
 
 dictionary.update({"favorite-desert=": "Ice cream" })
 
-#print(dictionary.keys())
+print(dictionary.keys())
 
-#print(dictionary.values())
+print(dictionary.values())
 
 for x, y in dictionary.items():
   print(x, y)

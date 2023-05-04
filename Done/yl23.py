@@ -6,7 +6,7 @@ deck = [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11] * 4
 #kaartide segamine
 random.shuffle(deck)
 
-
+#diileri ja mangja kaardid  
 player_hand = [deck.pop(), deck.pop()]
 dealer_hand = [deck.pop(), deck.pop()]
 
@@ -26,7 +26,7 @@ while True:
         
         print("Player's hand:", player_hand)
         print("Player's hand value:", sum(player_hand))
-        
+
         if sum(player_hand) > 21:
             print("You lose!")
             break

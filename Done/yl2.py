@@ -1,5 +1,5 @@
-raadius = float (input ("Sisesta raadius: "))
+r = float(input("Sisesta raadius: "))
 
-pindala = 3.14 * raadius * raadius
+s = 3.14 * r * r
 
-print (" Ringi pindala on: ", pindala)
+print(" Ringi pindala on: ", s)

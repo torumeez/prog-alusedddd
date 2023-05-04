@@ -2,11 +2,11 @@ a = input('sisesta esimene number:')
 b = input('sisesta teine number:')
 
 
-def answer(a, b):
+def answer(x, y):
       
-    if a <= b:
-        return a
+    if x <= y:
+        return x
     else:
-        return b
+        return y
 
 print('Nende kahe arvu miinimum on:', answer(a, b))
